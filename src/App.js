@@ -111,6 +111,7 @@ const App = () => {
       try {
         const response = await axios.post(
           "http://localhost:5000/addDetails",
+          
           userObject
         );
         console.log(response, "data received!");
